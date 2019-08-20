@@ -1,0 +1,69 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>BigStack</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="/auth.css" />
+  </head>
+
+  <body>
+    <div class="login-form">
+      <div class="form">
+        <form action="" class="loginform">
+          <input type="email" name="email" id="email" placeholder="email" />
+          <br />
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="password"
+          />
+          <br />
+          <p id="msg"></p>
+          <br />
+          <input type="submit" name="loginButton" value="LOGIN" />
+          <p id="signup">not registered? <a href="#">SIGN UP</a></p>
+        </form>
+
+        <form action="" class="registerform">
+          <input
+            type="text"
+            name="username"
+            id="username"
+            placeholder="username"
+          />
+          <br />
+          <input type="text" name="name" id="name" placeholder="name" /> <br />
+          <input type="email" name="email" id="email0" placeholder="email" />
+          <br />
+          <input
+            type="password"
+            name="password"
+            id="password0"
+            placeholder="password"
+          />
+          <br />
+          <p id="0msg"></p>
+          <br />
+          <input type="submit" name="loginButton" value="REGISTER" />
+          <p id="signin">already registered? <a href="#">SIGN IN</a></p>
+        </form>
+
+        <script>
+          $(".registerform").hide();
+          $("#signup a").click(function() {
+            $(".registerform").show("slow");
+            $(".loginform").hide("slow");
+          });
+          $("#signin a").click(function() {
+            $(".loginform").show("slow");
+            $(".registerform").hide("slow");
+          });
+        </script>
+      </div>
+    </div>
+    <script src="/auth.js"></script>
+  </body>
+</html>

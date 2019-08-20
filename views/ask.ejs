@@ -1,0 +1,58 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="/ask.css" />
+  </head>
+
+  <body>
+    <div id="container">
+      <header>
+        <h2 id="msg">Welcome to BigStack...</h2>
+        <nav>
+          <ul>
+            <li><a href="http://localhost:3000">Home</a></li>
+            <li><a href="http://localhost:3000" id="logout">Logout</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="instruction1">
+        <button id="post">Post the question</button>
+      </div>
+      <div class="instruction2">
+        <h2>How to ask???</h2>
+        <hr />
+        <p>
+          We’d love to help you, but the reality is that not every question gets
+          answered. To improve your chances, here are some tips:
+        </p>
+        <hr />
+        <h3>-> Choose a relevent tittle.</h3>
+        <h3>-> Be on-topic.</h3>
+        <h3>-> Be specific.</h3>
+        <h3>-> Make it relevant to others.</h3>
+        <h3>-> Keep an open mind.</h3>
+      </div>
+
+      <div class="question-body">
+        <div id="tittle">
+          <h3>Tittle:</h3>
+          <textarea name="questiontittle" id="questiontittle"></textarea>
+        </div>
+        <div id="ask">
+          <h3>Post your question here:</h3>
+          <textarea name="questiontext" id="questiontext"></textarea>
+        </div>
+        <div id="code">
+          <h3>Put your code here:</h3>
+          <textarea name="questioncode" id="questioncode"></textarea>
+        </div>
+      </div>
+    </div>
+    <script src="/ask.js"></script>
+  </body>
+</html>

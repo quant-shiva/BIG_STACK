@@ -1,0 +1,126 @@
+body {
+  background-color: #ffff;
+  margin: 0px;
+}
+header {
+  background-color: rgb(88, 88, 88);
+  font-family: "myfont", Arial, Helvetica, sans-serif;
+  height: 70px;
+  width: 100%;
+}
+header nav {
+  float: right;
+}
+header nav li {
+  display: inline;
+  font-size: 22;
+  padding: 5px;
+  margin: 5px;
+}
+header nav li a {
+  text-decoration: none;
+  color: green;
+}
+
+header nav li a :hover {
+  color: aliceblue;
+}
+
+.user-links {
+  width: 60%;
+  height: auto;
+  margin: auto;
+  border-radius: 5px;
+  background: rgb(204, 202, 202);
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 5px;
+  padding: 15px;
+}
+
+.user-links a {
+  text-decoration: none;
+  color: green;
+}
+
+#p1 {
+  font-size: 18;
+  display: inline;
+  margin-left: 15px;
+}
+
+#p2 {
+  font-size: 18;
+  display: inline;
+  margin-left: 150px;
+}
+
+#msg {
+  text-align: left;
+  font-size: 30;
+  margin-bottom: 0px;
+}
+#msg hr {
+  margin-top: 0px;
+}
+
+#userN {
+  clear: both;
+  font-size: 25px;
+  font-family: Georgia, serif;
+  float: left;
+  color: green;
+  margin-left: 15px;
+  background: rgb(233, 230, 230);
+  height: 160px;
+  width: 12%;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.card img {
+  clear: both;
+  height: 200px;
+  width: 60%;
+  float: left;
+  text-align: center;
+  margin-left: 15px;
+  margin-top: 5px;
+  border-radius: 5px;
+  background: rgb(201, 199, 199);
+}
+
+#user-blogs {
+  width: 60%;
+  height: auto;
+  margin: auto;
+  border-radius: 5px;
+  background: rgb(204, 202, 202);
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 5px;
+  padding: 15px;
+}
+#user-blogs h3 {
+  color: green;
+}
+#user-blogs h1 {
+  margin-bottom: 0px;
+}
+#prgm-languages {
+  width: 60%;
+  height: auto;
+  margin: auto;
+  border-radius: 5px;
+  background: rgb(204, 202, 202);
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 5px;
+  padding: 15px;
+}
+#prgm-languages p {
+  color: green;
+}
+#prgm-languages hr {
+  margin-top: 0px;
+}
+#prgm-languages {
+  margin-bottom: 0px;
+}

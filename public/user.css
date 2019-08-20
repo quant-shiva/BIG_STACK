@@ -1,0 +1,57 @@
+header {
+  background-color: rgb(43, 226, 180);
+  height: 6rem;
+  margin-bottom: 4px;
+}
+
+header nav {
+  float: right;
+}
+header nav li {
+  display: inline;
+  padding: 10px;
+  font-size: 20px;
+}
+
+header nav li a {
+  padding: 5px;
+  color: green;
+  text-decoration: none;
+  font-size: 22px;
+  text-align: center;
+  border-radius: 5px;
+}
+header nav li a:hover {
+  color: #fff;
+}
+
+.container {
+  margin-bottom: 2%;
+  margin-top: 1%;
+}
+
+.col-md-4 {
+  background-color: silver;
+}
+.col-md-8 {
+  background-color: silver;
+}
+
+#card {
+  margin-top: 2%;
+}
+
+#button {
+  margin-top: 2%;
+}
+
+.col-md-8 p {
+  font-size: 1.4em;
+}
+.col-md-8 input {
+  font-size: 1.2em;
+}
+
+h4 {
+  font-size: 2rem;
+}

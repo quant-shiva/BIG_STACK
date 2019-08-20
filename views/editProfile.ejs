@@ -1,0 +1,71 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>BigStack</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="profile.js"></script>
+    <link rel="stylesheet" href="/profile.css" />
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li id="logout"><a href="index.html">Logout</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <div class="card" style="width: 18rem ;">
+            <img class="card-img-top" src="/images/img.jpg" alt="Card image cap" />
+            <div class="card-body">
+                <form class="picform" method="POST" action="/api/profile/Upload" enctype="multipart/form-data">
+                    <div class="custom-file">
+                        <input type="file" name="profilepic" class="custom-file-input" id="picinput" required />
+                        <input type="text" id="usrname" />
+                    </div>
+                    <br />
+                    <button type="submit" class="btn btn-primary gap" id="imgbtn">
+                        Submit
+                    </button>
+                </form>
+                <button id="picEdit">Edit</button>
+            </div>
+        </div>
+        <div class="profile-form">
+            <p id="msg">Personal Information</p>
+            <form action="" class="profileform">
+                <p>Country you belong to:</p>
+                <input type="text" id="country" placeholder="country" readonly="true"  />
+                <p>Your website's url:</p>
+                <input type="url" id="website" placeholder="website" readonly="true"  />
+                <p>programing languages you know:</p>
+                <input type="text" id="lang" placeholder="languages" readonly="true"  />
+                <p>Your portfolio:</p>
+                <input type="url" id="portfolio" placeholder="portfolio" readonly="true" 
+                />
+                <p>Your youtube channel link:</p>
+                <input type="url" id="youtube" placeholder="youtube link" readonly="true" 
+                />
+                <p>your linkedin link:</p>
+                <input type="url" id="linkedin" placeholder="linkedin link" readonly="true" 
+                />
+                <p>Your facebook link:</p>
+                <input type="url" id="facebook" placeholder="facebook link" readonly="true" 
+                />
+                <p>Your github link:</p>
+                <input type="url" id="github" placeholder="github link" readonly="true" 
+                />
+                <button id="edit">Edit</button>
+                <button id="save">save changes</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BigStack</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="/question.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="http://localhost:3000">Home</a></li>
+                    <li id="logout"><a href="index.html">Logout</a></li>
+                </ul>
+                <div><a href="profile.html" id="user"></a></div>
+            </nav>
+        </header>
+        <div class="quesbody">
+            <div id="tittle">
+                <h4>
+                    <%= questittle%>
+                </h4>
+            </div>
+
+            <div id="question">
+                <textarea name="question" id="quest" readonly="true"><%=question%></textarea>
+            </div>
+
+            <div id="quescode">
+                <textarea name="questioncode" id="code" readonly="true">
+                    <%=quescode%>
+                </textarea>
+            </div>
+            <hr>
+            <h2>Answers</h2>
+            <div id="ansbody">
+                <div id="answer">
+                    <textarea name="answer" id="ans" readonly="true"></textarea>
+                </div>
+
+                <div id="anscode">
+                    <code id="code">
+                    here comes answer code
+                </code>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

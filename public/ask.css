@@ -1,0 +1,135 @@
+body {
+  background-color: #fff;
+  padding: 0px;
+  margin: 0px;
+  background: url(images/code.jpg) no-repeat center center fixed;
+  background-size: 100% 100%;
+  font-family: "Courier New", Courier, monospace;
+  height: 100%;
+  color: darkblue;
+}
+header {
+  background-color: #192a56;
+  font-family: "myfont", Arial, Helvetica, sans-serif;
+  height: 57px;
+  width: 100%;
+  top: 0;
+  margin: 0%;
+  padding: 0%;
+  text-align: center;
+}
+header h2 {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  color: brown;
+}
+header nav {
+  float: right;
+}
+header nav li {
+  display: inline;
+  padding: 5px;
+  font-size: 20px;
+}
+
+header nav li a {
+  padding: 5px;
+  color: black;
+  text-decoration: none;
+  font-size: 22px;
+  background-color: #019031;
+  text-align: center;
+  border-radius: 5px;
+}
+header nav li a:hover {
+  background: #43be31;
+}
+.instruction1 {
+  clear: both;
+  margin-top: 0px;
+  width: 25%;
+  height: 110%;
+  float: right;
+  background-color: aquamarine;
+  position: relative;
+  opacity: 0.95;
+  margin-bottom: 5px;
+}
+.instruction2 {
+  margin-top: 0px;
+  width: 25%;
+  height: 110%;
+  float: left;
+  background-color: aquamarine;
+  opacity: 0.95;
+  margin-bottom: 5px;
+}
+
+.question-body {
+  margin-top: 0px;
+  width: 50%;
+  height: 110%;
+  background-color: sienna;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 5px, solid, salmon;
+  text-align: left;
+  opacity: 0.95;
+  float: right;
+  margin-bottom: 5px;
+}
+
+#questiontittle {
+  width: 680px;
+  height: 50px;
+  margin: 5px;
+  resize: none;
+  background: lightsalmon;
+  border-radius: 3px;
+  opacity: 1;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: #192a56;
+}
+#questiontext {
+  width: 680px;
+  height: 300px;
+  margin: 5px;
+  resize: none;
+  border-radius: 3px;
+  opacity: 1;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  background: lightsalmon;
+}
+#questioncode {
+  width: 680px;
+  height: 300px;
+  margin: 5px;
+  resize: none;
+  border-radius: 3px;
+  opacity: 1;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  background: lightsalmon;
+  display: inline-block;
+}
+.question-body h3 {
+  margin: 0;
+}
+.instruction2 h2 {
+  margin-left: 10px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-family: sans-serif;
+}
+.instruction2 h3 {
+  margin-left: 10px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-family: sans-serif;
+}
+.instruction2 p {
+  margin-left: 5px;
+  font-family: sans-serif;
+}
